@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meal Finder</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+		body{
+			background-image:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("https://previews.123rf.com/images/zakiroff/zakiroff1601/zakiroff160100129/50662402-traditional-chinese-food-photo-collage-with-chinese-cuisine.jpg");
+			color:#f6f6f6;
+			display:flex;
+			flex-direction:column;
+			align-items:center;
+			justify-content:center;
+			height:80vh;
+		}
+		h1{
+	    	font-size:100px;
+	    	 font-family: 'Parisienne', cursive;
+	    	border-bottom:5px solid white;
+	    	animation-name:fadein;
+	    	animation-duration:6s;
+	    }
+	    @keyframes fadein {
+		  from {
+		    opacity: 0;
+		  }
+
+		  to {
+		    opacity: 1;
+		  }
+		}
+	</style>
+</head>
+<body onload="fun()">
+<h1>Meal Finder</h1>
+</body>
+<script>
+	function fun()
+		{
+			setTimeout(function(){
+		        window.location.href = 'Main Page.html';
+		    }, 7000);	
+		}
+	</script>
+</html>
